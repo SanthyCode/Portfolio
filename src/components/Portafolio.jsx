@@ -9,7 +9,7 @@ const Portafolio = () => {
                     <div >
 
                         <nav>
-                            <a href="https://coffeblog-html-css.netlify.app" target='_blank'><img src="./../public/blog.jpg" alt="" /></a>
+                            <a href="https://coffeblog-html-css.netlify.app" target='_blank'><img src="/image/blog.jpg" alt="" /></a>
                         </nav>
 
                         <h3>Blog</h3>
@@ -26,7 +26,7 @@ const Portafolio = () => {
                 <article className='portfolio-card'>
                     <div>
                         <nav>
-                            <a href="https://festivalsc.netlify.app" target='_blank'><img src="./../public/festival.jpg" alt="" /></a>
+                            <a href="https://festivalsc.netlify.app" target='_blank'><img src="/image/festival.jpg" alt="" /></a>
                         </nav>
 
                         <h3>Festival of Music</h3>
@@ -44,7 +44,7 @@ const Portafolio = () => {
                 <article className='portfolio-card'>
                     <div >
                         <nav>
-                            <a href="https://appweather-spr.netlify.app" target='_blank'><img src="./../public/weather.jpg" alt="" /></a>
+                            <a href="https://appweather-spr.netlify.app" target='_blank'><img src="/image/weather.jpg" alt="" /></a>
                         </nav>
 
                         <h3>App Weather</h3>
@@ -63,7 +63,7 @@ const Portafolio = () => {
                 <article className='portfolio-card'>
                     <div >
                         <nav>
-                            <a href="https://appricknmorty.netlify.app" target='_blank'><img src="./../public/rick.jpg" alt="" /></a>
+                            <a href="https://appricknmorty.netlify.app" target='_blank'><img src="/image/rick.jpg" alt="" /></a>
                         </nav>
 
                         <h3>Wiki Rick n' Morty</h3>
