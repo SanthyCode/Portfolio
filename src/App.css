@@ -83,15 +83,20 @@
 
 }
 
-.portfolio__container {
+/* .portfolio__container {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* align-items: center; */
+
     width: 850px;
+} */
 
+    .portfolio__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-}
+    }
 
 h3 {
     font-size: 30px;
@@ -159,17 +164,20 @@ h3 {
     }
 
 
-    .portfolio__container{
-        max-width: 768px;
-    }
+    /* .portfolio__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    } */
     .portfolio-card {
 
         max-width: 300px;
     }
 }
-@media (max-width: 540px) {
+@media (max-width: 640px) {
     img {
-        max-width: 125px;
+        max-width: 280px;
     }
 
 
@@ -197,16 +205,6 @@ h3 {
 
     .home__title{
        font-size: 30px;
-    }
-
-    .portfolio__container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .portfolio-card {
-
-        max-width: 330px;
     }
 
     .home-tech {

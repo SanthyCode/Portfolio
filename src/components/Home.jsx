@@ -9,7 +9,9 @@ const Home = () => {
         </article>
         <article>
           <h2>About me</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, commodi facilis dolores repudiandae quo omnis nesciunt officia velit illo, ipsam animi, fugit inventore dignissimos deserunt maiores facere perferendis impedit laborum.</p>
+          <p>Front End Developer con
+            experiencia en la librería de React Js, sus principales actividades son comprender los requicitos del negocio, sugerir, aportar e implementar soluciones para el desarrollo del mismo.
+            Apasionado por el aprendizage continuo y autodidacta, demostrando así su compromiso y mejora constante.</p>
         </article>
         <article >
           <ul id='skills' className='home-tech'>

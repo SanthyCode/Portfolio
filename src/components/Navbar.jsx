@@ -11,7 +11,7 @@ const Navbar = () => {
       <h1 className='title'>Santiago Pulido R</h1>
       <nav className={`navbar-a ${ menu ? 'active' : '' } `}>
         <a className='navbar-a__li' href="#home">Home</a>
-        <a className='navbar-a__li' href="#skills">Mis Habilidades</a>
+        <a className='navbar-a__li' href="#skills">My Skills</a>
         <a className='navbar-a__li' href="#portfolio">Portfolio</a>
         <a className='navbar-a__li' href="#contact">Contact</a>
       </nav>
