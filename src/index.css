@@ -1,0 +1,47 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+/* Temporales */
+
+html {
+  font-family: 'Manjari', sans-serif;
+  color: white;
+  margin: 0;
+  background-image: url('https://www.qualitydevs.com/wp-content/uploads/2017/12/desarrollador-1288x724.jpg');
+  background-size: cover ;
+}
+
+body {
+  margin: 0;
+}
+
+i {
+  font-size: 32px;
+}
+
+img {
+  width: 340px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(199, 198, 193, 0.38);
+  box-shadow: 5px 5px 15px 5px rgba(199, 198, 193, 0.38);
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
